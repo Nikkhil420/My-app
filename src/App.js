@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Sub from './components/Sub/Sub';
+import Add from './components/Add/Add';
+import Multi from './components/Multi/Multi';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+     <h1>React project</h1>
+  
+
+  <Add a='8' b='2' ></Add>
+  <Sub a='10' b='8' />
+  <Multi a = '5' b = '5' />
+   </div>
   );
 }
 
